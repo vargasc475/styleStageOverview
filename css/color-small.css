@@ -1,0 +1,111 @@
+html {
+    background-color: #fffb7d;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, nav {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding: 1em;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: #fffb7d;
+    background-color: #141c34;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f53582;
+}
+
+nav div {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    color: #141c34;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #4948cf;
+    color: #fffb7d
+}
+
+h3 {
+    color: #141c34;
+}
+
+.section {
+    text-align: center;
+}
+
+.color-palette {
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    padding: 3em;
+}
+
+.primary, .secondary, .accent1, .accent2, .accent3 {
+    justify-self: center;
+    border: 1px solid black ;
+    margin: 0 0 20px 0;
+    width: 111px;
+    
+}
+.primary, .accent3 {
+    color: white;
+}
+
+.accent1, .accent2 {
+    color: black;
+}
+
+.primaryH, .secondaryH, .accent1H, .accent2H, .accent3H {
+    justify-self: center;
+    border: 1px solid black;
+    padding: 1.5em;
+    margin: 0;
+    width: 103px;
+}
+
+.primary {
+    background-color: #141C34;
+    padding: 1.5em;
+}
+
+.secondary {
+    background-color: #F53582;
+    padding: 1.5em;
+}
+
+.accent1 {
+    background-color: #50F2DB;
+    padding: 1.5em;
+}
+
+.accent2 {
+    background-color: #FFFB7D;
+    padding: 1.5em;
+}
+
+.accent3 {
+    background-color: #4948CF;
+    padding: 1.5em;
+}
